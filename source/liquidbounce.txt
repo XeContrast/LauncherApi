@@ -1,0 +1,76 @@
+GameVersion: 1.8.9
+ModLoader: Forge
+ModLoaderVersion: 11.15.1.2318
+ModVersion: b100
+ModRelease: Release
+BuildVersion: #4035
+TimeRelease: 2025-3-2
+Required: Null?
+ChangeLog: """Additions
+Added new rotation randomization pattern "LazyFlick"
+Introduced RenderAimPointBox option for KillAura
+Introduced KillAura GenerateSpotBasedOnDistance option
+Introduced Modern TargetHUD design
+Implemented pop-up support for important notifications
+Implemented Custom FontManager
+Added ClickGUI Text Editor functionality
+Added InvMove Grim bypass
+Added arraylist fade color feature
+Introduced new disablers for various anti-cheats
+Added LabyMod client brand support
+Implemented custom alts name prefix
+Added Verus beta and experimental disablers
+Introduced ColorValue for RGBColors
+Added SnakeGame module for in-game entertainment
+Implemented JumpCircle module for visual effects
+Added FrostBlur option to TargetHUD
+Introduced domain check on scoreboard title
+Added simplification for scoreboard removal
+Added ChineseHat module with texture option
+Implemented Font FileFilter for better font management
+Added new Damage module modes and improvements
+Expanded Velocity and ReverseStep ranges
+Added GenerateClicksBasedOnDistance option to KillAura
+Implemented InvCleaner shears & TNT slot sorting
+Added Ambience world color and new time mode options
+Introduced Anticheat Detector module
+Added indicator option in AntiFireball module
+Added higher Backtrack delay limit
+Added Gradient Colors to KillAura Circle
+Implemented on-press animations for Keystrokes
+Added KillAura ForceFirstHit option
+Improvements
+Improved async operations in cape API
+Enhanced ESP with gaussian mode
+Optimized JSON loading from web
+Improved ClickGUI with AutoScroll feature
+Enhanced FreeLook with AutoF5 option
+Improved NoSlow functionality
+Enhanced Scaffold with new options and improvements
+Improved TargetHUD visuals and animations
+Enhanced rotation settings across multiple modules
+Improved AltManager with move up/down functionality
+Enhanced KillAura aim point box smoothness
+Improved Keystrokes module visuals
+Enhanced overall performance and optimization
+Bug Fixes
+Fixed Sprint module detection issues
+Resolved NoSlow working incorrectly
+Fixed color picker visibility in Armor element
+Addressed Backtrack freezing issue
+Fixed TargetHUD animation and health bar problems
+Resolved text background scale issues
+Fixed duplicated rotation settings in Scaffold
+Addressed language switching freezes
+Fixed Remapper issues
+Resolved RotationSettings ResetTicks condition
+Fixed default animation choice
+Addressed various incompatibilities with animation mods
+Fixed custom background files not loading
+Resolved FontManager duplicate elements on resolution change
+Fixed FreeLook causing visual issues when screen is not focused
+Addressed Notifications width adjustment problems
+Fixed FontRenderer null text input issue
+Resolved KillAura AutoBlock slot switching problem
+Removals
+Removed IntaveTimer14 speed mode"""
